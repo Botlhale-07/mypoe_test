@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.mycompany.progpoe.LoginUnitTest
+Test set: com.mycompany.progpoe.PROGPOETest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.552 s -- in com.mycompany.progpoe.LoginUnitTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.772 s -- in com.mycompany.progpoe.PROGPOETest

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.progpoe.LoginUnitTest" time="0.552" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.progpoe.MessageUnitTest" time="0.083" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -61,12 +61,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testPasswordComplexityFailure" classname="com.mycompany.progpoe.LoginUnitTest" time="0.233"/>
-  <testcase name="testCellPhoneNumberIncorrectlyFormatted" classname="com.mycompany.progpoe.LoginUnitTest" time="0.004"/>
-  <testcase name="testCellPhoneNumberCorrectlyFormatted" classname="com.mycompany.progpoe.LoginUnitTest" time="0.015"/>
-  <testcase name="testUsernameIncorrectlyFormatted" classname="com.mycompany.progpoe.LoginUnitTest" time="0.018"/>
-  <testcase name="testLoginFailed" classname="com.mycompany.progpoe.LoginUnitTest" time="0.007"/>
-  <testcase name="testLoginSuccessful" classname="com.mycompany.progpoe.LoginUnitTest" time="0.017"/>
-  <testcase name="testPasswordComplexitySuccess" classname="com.mycompany.progpoe.LoginUnitTest" time="0.009"/>
-  <testcase name="testUsernameCorrectlyFormatted" classname="com.mycompany.progpoe.LoginUnitTest" time="0.005"/>
+  <testcase name="testRecipientNumberSuccess" classname="com.mycompany.progpoe.MessageUnitTest" time="0.015"/>
+  <testcase name="testRecipientNumberFailure" classname="com.mycompany.progpoe.MessageUnitTest" time="0.002"/>
+  <testcase name="testMessageIDCreatedSuccess" classname="com.mycompany.progpoe.MessageUnitTest" time="0.002"/>
+  <testcase name="testMessageIDCreatedFailure" classname="com.mycompany.progpoe.MessageUnitTest" time="0.002"/>
+  <testcase name="testMessageLengthSuccess" classname="com.mycompany.progpoe.MessageUnitTest" time="0.002"/>
+  <testcase name="testMessageHashCorrect" classname="com.mycompany.progpoe.MessageUnitTest" time="0.035"/>
+  <testcase name="testMessageLengthFailure" classname="com.mycompany.progpoe.MessageUnitTest" time="0.008">
+    <system-out><![CDATA[Please enter a message of less than 250 characters.
+]]></system-out>
+  </testcase>
 </testsuite>
